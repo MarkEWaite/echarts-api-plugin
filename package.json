@@ -1,12 +1,12 @@
 {
   "name": "echarts-api",
-  "version": "6.0.0",
+  "version": "6.1.0",
   "description": "ECharts Jenkins Plugin",
   "directories": {
     "doc": "doc"
   },
   "dependencies": {
-    "echarts": "6.0.0",
+    "echarts": "6.1.0",
     "culori": "4.0.2"
   },
   "devDependencies": {
@@ -30,5 +30,8 @@
   },
   "author": "Ullrich Hafner",
   "license": "MIT",
-  "homepage": "https://github.com/jenkinsci/echarts-api-plugin#readme"
+  "homepage": "https://github.com/jenkinsci/echarts-api-plugin#readme",
+  "allowScripts": {
+    "fsevents@2.3.3": true
+  }
 }
